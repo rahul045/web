@@ -1,0 +1,10 @@
+{
+  "params": {
+    "local_server": "True",
+    "local_uri": "mysql://juhosi:juhosi123@db4free.net/juhosi",
+    "prod_uri": "mysql://juhosi:juhosi123@db4free.net/juhosi",
+    "login_img": "login.png",
+    "admin_user": "admin",
+    "admin_password": "admin"
+  }
+}
