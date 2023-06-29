@@ -2,7 +2,7 @@ from flask import Flask,redirect, render_template,request
 from flask_sqlalchemy import SQLAlchemy
 import json
 from sqlalchemy import text
-with open('config.json','r') as c:
+with open('config.json', 'r') as c:
     params = json.load(c)["params"]
 db = SQLAlchemy()
 # create the app
