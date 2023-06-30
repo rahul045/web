@@ -98,4 +98,4 @@ def dashboard(id):
     orders=OrderItem.query.filter_by(id=id).all()
     return render_template('dashboard.html', params=params,orders=orders)
 
-app.run()
+
